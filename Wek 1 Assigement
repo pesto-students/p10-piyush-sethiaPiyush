@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Page</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"></li> <img src="123.jpg" alt="CattyBoard">
+            <li>
+                <h1>CattyBoard Top 100 Single Charts (11.06.36)</h1><br>
+                <P1>UnknownArtist</P1><br>
+                <p2>2016.Charts.100 song</p><br>
+                <p3><img src="Start Button.png" width="15px" height="15px" alt="play"> play</p3>
+                <p4><img src="pause.png" alt="Pause" width="15px" height="15px"> Pause</p4>
+                <p5><img src="fast-forward.png" width="15px" height="15px" Fast Forward alt="">Fast Forward</p5>
+            
+            </li>
+         </ul>
+        <table>
+              <tr>
+                  <td> 1 One Dance</td> 
+                  <td>Crake feat CatKid & Cyla</td>
+                  <td>2.54</td>
+              </tr>
+              <tr>
+                <td>2 Panda</td> 
+                <td>Cattee</td>
+                <td>4.06</td>
+             </tr>
+             <tr>
+                <td>3 Can't Stop the Feeling</td> 
+                <td>Catin Cimberlake</td>
+                <td>3.56</td>
+            </tr>
+        </table>      
+        
+     </body>
+</html>
+
+CSS CODE:-
+
+body{
+    background-color: antiquewhite;
+    font: lato;
+}
+*{
+    margin: 10;
+    padding: 10;
+}
+
+nav 
+ul{
+        display: flex;
+        list-style-type: none;
+        hight: 100px;
+        background-color: rgb(71, 70, 70);
+        }
+li{
+    color: rgb(242, 229, 229);
+}
+span{
+    margin-left: 10;
+    color: rgb(20, 19, 19);
+  }
+table{
+    margin: 20;
+    padding: 20;
+    width: 90%;
+    background-color: rgb(130, 177, 181);
+    
+}
