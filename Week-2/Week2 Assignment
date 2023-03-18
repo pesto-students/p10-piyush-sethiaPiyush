@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem, ipsum.</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="content">
+         <h2>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Libero, molestiae.</h2>
+    </div>
+    
+</div class="flex-container">
+    <div class="flex-item" id="flex-item-1"> Item-1Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui quidem et tempora eveniet molestias, quaerat quae odit voluptates laboriosam tenetur sapiente saepe magnam facere quis delectus eaque voluptatem. Ducimus quisquam dolor labore eligendi a ratione, magnam placeat, eius accusamus tenetur libero ipsum suscipit quod corporis odio quos ipsam id?</div>
+
+    <img id="box" src="amberfort.jpg" alt="Amber Fort">    
+
+   <div class="flex-item" id="flex-item-2"> Item2-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui quidem et tempora eveniet molestias, quaerat quae odit voluptates laboriosam tenetur sapiente saepe magnam facere quis delectus eaque voluptatem. Ducimus quisquam dolor labore eligendi a ratione, magnam placeat, eius accusamus tenetur libero ipsum suscipit quod corporis odio quos ipsam id?</div>
+  
+  <div class="flex-item" id="flex-item-3">Item-3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui quidem et tempora eveniet molestias, quaerat quae odit voluptates laboriosam tenetur sapiente saepe magnam facere quis delectus eaque voluptatem. Ducimus quisquam dolor labore eligendi a ratione, magnam placeat, eius accusamus tenetur libero ipsum suscipit quod corporis odio quos ipsam id?</div>
+   
+    <div class="flex-item" id="flex-item-4">Item-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui quidem et tempora eveniet molestias, quaerat quae odit voluptates laboriosam tenetur sapiente saepe magnam facere quis delectus eaque voluptatem. Ducimus quisquam dolor labore eligendi a ratione, magnam placeat, eius accusamus tenetur libero ipsum suscipit quod corporis odio quos ipsam id?</div>
+    
+    <div class="flex-item" id="flex-item-5"> Item-5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui quidem et tempora eveniet molestias, quaerat quae odit voluptates laboriosam tenetur sapiente saepe magnam facere quis delectus eaque voluptatem. Ducimus quisquam dolor labore eligendi a ratione, magnam placeat, eius accusamus tenetur libero ipsum suscipit quod corporis odio quos ipsam id?</div> 
+</div>  
+
+<form action="Name">
+    <ul>
+        <li>    
+            <label for="First Name">First Name</label>
+            <input type="text" id="First Name" Name="First Name">
+        </li><br>
+        <li>    
+            <label for="Last Name">Last Name</label>
+            <input type="text" id="First Name" Name="Last Name">
+        </li> <br>
+        <li>    
+            <label for="Mobile Number">Mobile Number</label>
+            <input type="text" id="Mobile Number" Name="Mobile Number">
+        </li><br>
+        <li>    
+            <label for="Email ID">Email ID</label>
+            <input type="text" id="Email ID" Name="Email ID">
+        </li><br>
+        <li>    
+            <label for="Password">Password</label>
+            <input type="text" id="Password" Name="MPassword">
+        </li><br>
+        <li>    
+            <label for="Confiram Password">Confiram Password</label>
+            <input type="text" id="Confiram Password" Name="Confiram Password">
+        </li><br>
+        <input type="submit" value="Submit">
+    </ul>
+
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+CSS CODE:-
+
+
+
+.content{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+#flex-item-1{
+    width: 400px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5px;    
+}
+#flex-item-2{
+    position: relative;
+    bottom: 400px;
+    left: 800px;
+    width: 400px;
+}
+.h2{
+    position: relative;
+    bottom: 50px;
+    left: 800px;
+    width: 400px;
+}
+#flex-item-3{
+    position: relative;
+    bottom: 370px;
+    left: 800px;
+    width: 400px;
+    margin-bottom: 40px;    
+}
+#flex-item-4{
+    position: relative;
+    bottom: 390px;
+    left: 800px;
+    width: 400px;   
+}
+#flex-item-5{
+    position: relative;
+    bottom: 350px;
+    left: 800px;
+    width: 400px;
+}
+#box{
+    width: 350px;
+    height: 200px;
+    margin-left: 100px;
+}
+form{
+    margin-top: -400px;
+    padding: 30px;
+  
+}
